@@ -2,7 +2,9 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get();
+app.get("/img/:imageName", (req, res) => {
+  res.send(`<img src="/img/${req.imageName}" alt="Immagine">`);
+});
 
 // Array di post
 const posts = [
