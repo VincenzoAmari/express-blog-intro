@@ -44,14 +44,14 @@ const posts = [
   },
 ];
 
-app.listen(port, () => {
-  console.log(`Server avviato su http://localhost:${port}`);
-});
-
 app.get("/", (req, res) => {
   res.send("Server del mio blog");
 });
 
 app.get("/bacheca", (req, res) => {
   res.json(posts);
+});
+
+app.listen(port, () => {
+  console.log(`Server avviato su http://localhost:${port}`);
 });
