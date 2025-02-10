@@ -26,20 +26,20 @@ const posts = [
     titolo: "Pane Fritto Dolce",
     contenuto:
       "Una ricetta golosa e semplice, perfetta per riciclare il pane avanzato.",
-    immagine: "/img/pane_fritto_dolce.jpg",
+    immagine: "/img/pane_fritto_dolce.jpeg",
     tags: ["Dolce", "Fritto", "Riciclo"],
   },
   {
     titolo: "Pasta alla Barbabietola",
     contenuto:
       "Un primo piatto colorato e saporito, perfetto per sorprendere gli ospiti.",
-    immagine: "/img/pasta_barbabietola.jpg",
+    immagine: "/img/pasta_barbabietola.jpeg",
     tags: ["Pasta", "Primo", "Barbabietola"],
   },
   {
     titolo: "Torta Paesana",
     contenuto: "Un dolce della tradizione lombarda, ricco di sapori e storia.",
-    immagine: "/img/torta_paesana.jpg",
+    immagine: "/img/torta_paesana.jpeg",
     tags: ["Dolce", "Tradizione", "Lombardia"],
   },
 ];
