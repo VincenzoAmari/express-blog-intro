@@ -4,7 +4,7 @@ const port = 3000;
 
 app.use(express.static("public"));
 
-app.get("/public/img/:imageName", (req, res) => {
+app.get("/img/:imageName", (req, res) => {
   res.send(`<img src="/public/img/${req.imageName}" alt="Immagine">`);
 });
 
